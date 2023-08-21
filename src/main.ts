@@ -22,6 +22,8 @@ console.log(getUserName(userGabriel));
 console.log(setUserName(userGabriel, "Michael"));
 console.log(removeUserAge(userGabriel));
 
+
+
 // CRUD functions - USERS
 const initUsers = (...users: any): any => users;
 const addUser = (users: any, newUser: any): any => [...users, newUser];
